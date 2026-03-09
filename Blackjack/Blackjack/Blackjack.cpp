@@ -8,7 +8,7 @@ int main()
     bool exit = false;
 
     //Start menu
-    cout << "Welcome to BlackJack!\n\nPlease pick one of the following options" << endl;
+    cout << "Welcome to BlackJack!\n\nPlease pick one of the following options gay" << endl;
 
     while (!exit) {
 
