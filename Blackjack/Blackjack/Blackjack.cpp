@@ -11,11 +11,16 @@ int main()
     cout << "Welcome to BlackJack!\n\nPlease pick one of the following options" << endl;
 
     while (!exit) {
-        cout << "1. Create a new profile\n2.Load a profile\n3.exit" << endl;
+
         cout << "Select option 1-3" << endl;
+        cout << "1. Create a new profile\n2.Load a profile\n3.exit" << endl;
+        
 
         switch (input) {
-
+            case 1:
+                cout << "enter information";
+            default:
+                cout << "retard monkey";
         }
     }
     
@@ -28,3 +33,6 @@ int main()
 
     printf("\033[H\033[J");
 }
+
+
+void runGame();
